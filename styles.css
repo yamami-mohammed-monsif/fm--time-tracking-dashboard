@@ -111,6 +111,10 @@ body {
     color: var(--clr-neutral-300);
 }
 
+.frame:hover {
+    cursor: pointer;
+}
+
 .active {
     color: #ffff;
     transform: scale(110%);
