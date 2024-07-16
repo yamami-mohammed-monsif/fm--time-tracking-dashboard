@@ -111,6 +111,11 @@ body {
     color: var(--clr-neutral-300);
 }
 
+.active {
+    color: #ffff;
+    transform: scale(110%);
+}
+
 .img-container {
     overflow: hidden;
     padding-inline: var(--pad);
@@ -151,7 +156,7 @@ body {
     font-weight: var(--fw-bold);
 }
 
-.hours {
+.current {
     font-size: var(--fs-lg);
     letter-spacing: 1px;
     font-weight: var(--fw-thin);
